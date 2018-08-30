@@ -26,44 +26,26 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">USTULD0018</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADgUCgqE4G0ijw9DdmO7pfwAAAAACAAAAAAADZgAAwAAAABAAAABibaVH5umhLhAiLV+BYxKIAAAAAASAAACgAAAAEAAAAArjKE3Exq9cQqeQkRFBDgiIAAAAcu03NZbCdFXrjxslTmHXLsRjfHVjdmdy8k3A2F7brDEbvGdiMFSuvbFj2+odspqa4v3beRhAiit4wIZgykxRJSvfgQFmrTQ7kenB8kYGr8JoERKJ5gh+/+xplM7WpoZF2VXwf8VDcgLOHXEnc1ap3o3BZ18+RXKFytsWb6JDcuL+zDosuTwPABQAAAB2uwlSIGM6EAS9jc4rblrYl70Wmg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADgUCgqE4G0ijw9DdmO7pfwAAAAACAAAAAAADZgAAwAAAABAAAACwcKFeVAF/6rqN5w1rjlytAAAAAASAAACgAAAAEAAAAL/P/Sm2hTU3hbfQuKWvdQ6IAAAA3fpoY2+QN1z0gbank3m3Grr1AKyaWChjJNUIm88lXiKUTnG2m9ZD5VJZPk/0Oggx1QaTAlpfXHglAFqOBu7+rZNbrdEbEX+cnDoQ7HV4kDnU4fuIi7J9oPHUvFdY1bjWPf8MXxo0xRnFJgN5Q5Qwag0VBZkCqEy67zd7eVtR9NJZzCD7Dm3HFBQAAADA30EYR0RBGtp75FT3QJaD11gxvg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="DataMart.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{A3723844-DA7C-455C-A615-F9B31C0E364A}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionComments">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6F3491E8-8104-4F8E-954A-A8675EABFB23}</SSIS:Property>
-                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
-              </SSIS:Properties>
-              <SSIS:Parameters />
-            </SSIS:PackageMetaData>
             <SSIS:PackageMetaData SSIS:Name="DataMart.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{33C81F16-D207-4A97-8047-2357D3AD8AF9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">DataMart</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{52D11B23-04A4-4528-A192-E7F55850C86C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{70F70366-F2D1-4184-8554-664C9FFDF7A6}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -178,7 +160,13 @@
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
         <TargetServerVersion>SQLServer2016</TargetServerVersion>
-        <ParameterConfigurationValues />
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2018-07-12T17:58:40.3525291Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
       </Options>
     </Configuration>
   </Configurations>

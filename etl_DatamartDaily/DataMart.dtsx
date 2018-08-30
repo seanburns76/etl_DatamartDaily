@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="DataMart"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{DA3FAA02-07F3-4F56-BE16-B77BF7ABEDAC}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{70F70366-F2D1-4184-8554-664C9FFDF7A6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADgUCgqE4G0ijw9DdmO7pfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADd1Xkn7pC8Cjxz2ujSJhypAAAAAASAAACgAAAAEAAAAAfM7DxiLhK8amFo20EVRy8YAAAAHZFOmdYR/gORV504IWfsfR9ujpbR+ZrXFAAAAAFAscQ/bVn9jO/Wl7IssPcEIPKR</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADgUCgqE4G0ijw9DdmO7pfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAKgXRYyRUokgN34VEsUV3WAAAAAASAAACgAAAAEAAAAPkom7Mmxalm63YG+7jCZDoYAAAA8QvcovsWGp2b+gzNWt4vJ3qIkzSWRVY1FAAAAL+5qmychdhNWYKiprkv4oOggOjm</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
